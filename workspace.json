@@ -1,0 +1,473 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-06T18:48:11Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIKICAgICAgICBzbWFydEhvbWVTb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJTbWFydCBIb21lIFN5c3RlbSIgewoJCQlhcHBsaWNhdGlvbkNvbnRhaW5lciA9IGNvbnRhaW5lciAiU21hcnQgSG9tZSBBcHBsaWNhdGlvbiIgIkNvbnRyb2xzIHRoZSBhbWJpZW50IHRlbXBlcmF0dXJlIGFuZCBhbGxvd3MgdGhlIHVzZXIgdG8gbW9uaXRvciB2aWRlbyBhbmQgdGVtcGVyYXR1cmUgcmVhZGluZ3MiIHsKCQkJCXRlbXBlcmF0dXJlTWFuYWdlbWVudENvbXBvbmVudCA9IGNvbXBvbmVudCAiVGVtcGVyYXR1cmUgbWFuYWdlbWVudCIgIkNvbnRyb2xzIHRoZSBhbWJpZW50IHRlbXBlcmF0dXJlIGJhc2VkIG9uIHRlbXBlcmF0dXJlIHJlYWRpbmdzIgoJCQkJdmlkZW9DYXB0dXJlQ29tcG9uZW50ID0gY29tcG9uZW50ICJWaWRlbyBDYXB0dXJlIiAiU3RvcmVzIHZpZGVvIGNvbnRlbnQgdG8gZmlsZSBzeXN0ZW0iCgkJCQl1c2VySW50ZXJmYWNlQ29tcG9uZW50ID0gY29tcG9uZW50ICJVc2VyIEludGVyZmFjZSIgIkRpc3BsYXlzIHRoZSB0ZW1wZXJhdHVyZSBhbmQgdmlkZW8gY29udGVudCIgIiIgIldlYiBicm93c2VyIgoJCQl9CgkJCWRhdGFiYXNlQ29udGFpbmVyID0gY29udGFpbmVyICJEYXRhYmFzZSIgIiIgIlBvc3RncmVTUUwgc2NoZW1hIiAiRGF0YWJhc2UsIEluZnJhc3RydWN0dXJlIgoJCQlyYWJiaXRNUUNvbnRhaW5lciA9IGNvbnRhaW5lciAiTVFUVCBCcm9rZXIiICIiICJSYWJiaXRNUSIgIk1RVFQgQnJva2VyLCBJbmZyYXN0cnVjdHVyZSIKCQkJdmlkZW9TdG9yZUNvbnRhaW5lciA9IGNvbnRhaW5lciAiVmlkZW8gU3RvcmUiICJTdG9yZXMgdmlkZW8gY29udGVudCIgIkZpbGUgc3lzdGVtIiAiRmlsZSBzeXN0ZW0sIEluZnJhc3RydWN0dXJlIgoJCX0KCQl0aGVybW9tZXRlclNvZnR3YXJlU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIlRoZXJtb21ldGVyIiAiIiAiRXh0ZXJuYWwiCgkJaGVhdFB1bXBTb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJIZWF0IFB1bXAiICIiICJFeHRlcm5hbCIKCQljYW1lcmFTb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJDYW1lcmEiICIiICJFeHRlcm5hbCIKCiAgICAgICAgdXNlciAtPiB1c2VySW50ZXJmYWNlQ29tcG9uZW50ICJVc2VzIgoJCQoJCXVzZXJJbnRlcmZhY2VDb21wb25lbnQgLT4gZGF0YWJhc2VDb250YWluZXIgIlJlYWRzIHRlbXBlcmF0dXJlIGRhdGEiCgkJdXNlckludGVyZmFjZUNvbXBvbmVudCAtPiB2aWRlb1N0b3JlQ29udGFpbmVyICJSZWFkcyB2aWRlbyBjb250ZW50IgoJCQoJCWNhbWVyYVNvZnR3YXJlU3lzdGVtIC0+IHZpZGVvQ2FwdHVyZUNvbXBvbmVudCAiU2VuZHMgdmlkZW8gY29udGVudCIKCQkKCQl2aWRlb0NhcHR1cmVDb21wb25lbnQgLT4gdmlkZW9TdG9yZUNvbnRhaW5lciAiV3JpdGVzIHZpZGVvIGNvbnRlbnQiCgkJCgkJdGhlcm1vbWV0ZXJTb2Z0d2FyZVN5c3RlbSAtPiByYWJiaXRNUUNvbnRhaW5lciAiU2VuZHMgdGVtcGVyYXR1cmUgcmVhZGluZ3MiICJNUVRUUCIKCQkKCQl0ZW1wZXJhdHVyZU1hbmFnZW1lbnRDb21wb25lbnQgLT4gcmFiYml0TVFDb250YWluZXIgIkdldHMgdGVtcGVyYXR1cmUgcmVhZGluZ3MiICJNUVRUUCIKCQl0ZW1wZXJhdHVyZU1hbmFnZW1lbnRDb21wb25lbnQgLT4gZGF0YWJhc2VDb250YWluZXIgIlJlYWRzL1dyaXRlcyB0ZW1wZXJhdHVyZSByZWFkaW5ncyIKCQl0ZW1wZXJhdHVyZU1hbmFnZW1lbnRDb21wb25lbnQgLT4gaGVhdFB1bXBTb2Z0d2FyZVN5c3RlbSAiQ29udHJvbHMgdGhlIGFtYmllbnQgdGVtcGVyYXR1cmUiCQkKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBzbWFydEhvbWVTb2Z0d2FyZVN5c3RlbSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoJCWNvbnRhaW5lciBzbWFydEhvbWVTb2Z0d2FyZVN5c3RlbSB7CgkJCWluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CgkJfQoJCWNvbXBvbmVudCBhcHBsaWNhdGlvbkNvbnRhaW5lciB7CgkJCWluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CgkJfQoJCQoJCXRoZW1lIGRlZmF1bHQKCQkKCQlzdHlsZXMgewoJCSAgZWxlbWVudCAiRXh0ZXJuYWwiIHsKCQkJYmFja2dyb3VuZCAjOTk5OTk5CgkJICB9CgkJICBlbGVtZW50ICJJbmZyYXN0cnVjdHVyZSIgewoJCQliYWNrZ3JvdW5kICNjOTY1NjUKCQkgIH0KCQkgIGVsZW1lbnQgIldlYiBicm93c2VyIiB7CgkJCXNoYXBlIFdlYkJyb3dzZXIKCQkgIH0KCQkgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CgkJCXNoYXBlIEN5bGluZGVyCgkJICB9CgkJICBlbGVtZW50ICJGaWxlIHN5c3RlbSIgewoJCQlzaGFwZSBGb2xkZXIKCQkgIH0KCQkgIGVsZW1lbnQgIk1RVFQgQnJva2VyIiB7CgkJCXNoYXBlIFBpcGUKCQkgIH0KCQkgIHJlbGF0aW9uc2hpcCAiUmVsYXRpb25zaGlwIiB7CgkJCXN0eWxlIGRvdHRlZAoJCSAgfQoJCX0KCiAgICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "User",
+      "relationships" : [ {
+        "id" : "13",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Uses"
+      }, {
+        "id" : "14",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Uses",
+        "linkedRelationshipId" : "13"
+      }, {
+        "id" : "15",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Uses",
+        "linkedRelationshipId" : "13"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "11",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "heatpumpsoftwaresystem"
+      },
+      "name" : "Heat Pump",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "10",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "thermometersoftwaresystem"
+      },
+      "name" : "Thermometer",
+      "relationships" : [ {
+        "id" : "25",
+        "sourceId" : "10",
+        "destinationId" : "2",
+        "description" : "Sends temperature readings",
+        "technology" : "MQTTP",
+        "linkedRelationshipId" : "24"
+      }, {
+        "id" : "24",
+        "tags" : "Relationship",
+        "sourceId" : "10",
+        "destinationId" : "8",
+        "description" : "Sends temperature readings",
+        "technology" : "MQTTP"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "12",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "camerasoftwaresystem"
+      },
+      "name" : "Camera",
+      "relationships" : [ {
+        "id" : "21",
+        "sourceId" : "12",
+        "destinationId" : "3",
+        "description" : "Sends video content",
+        "linkedRelationshipId" : "20"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "12",
+        "destinationId" : "5",
+        "description" : "Sends video content"
+      }, {
+        "id" : "22",
+        "sourceId" : "12",
+        "destinationId" : "2",
+        "description" : "Sends video content",
+        "linkedRelationshipId" : "20"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "smarthomesoftwaresystem"
+      },
+      "name" : "Smart Home System",
+      "relationships" : [ {
+        "id" : "31",
+        "sourceId" : "2",
+        "destinationId" : "11",
+        "description" : "Controls the ambient temperature",
+        "linkedRelationshipId" : "29"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "applicationcontainer"
+        },
+        "name" : "Smart Home Application",
+        "description" : "Controls the ambient temperature and allows the user to monitor video and temperature readings",
+        "relationships" : [ {
+          "id" : "30",
+          "sourceId" : "3",
+          "destinationId" : "11",
+          "description" : "Controls the ambient temperature",
+          "linkedRelationshipId" : "29"
+        }, {
+          "id" : "17",
+          "sourceId" : "3",
+          "destinationId" : "7",
+          "description" : "Reads temperature data",
+          "linkedRelationshipId" : "16"
+        }, {
+          "id" : "27",
+          "sourceId" : "3",
+          "destinationId" : "8",
+          "description" : "Gets temperature readings",
+          "technology" : "MQTTP",
+          "linkedRelationshipId" : "26"
+        }, {
+          "id" : "19",
+          "sourceId" : "3",
+          "destinationId" : "9",
+          "description" : "Reads video content",
+          "linkedRelationshipId" : "18"
+        } ],
+        "components" : [ {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "videocapturecomponent"
+          },
+          "name" : "Video Capture",
+          "description" : "Stores video content to file system",
+          "relationships" : [ {
+            "id" : "23",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "9",
+            "description" : "Writes video content"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component,Web browser",
+          "properties" : {
+            "structurizr.dsl.identifier" : "userinterfacecomponent"
+          },
+          "name" : "User Interface",
+          "description" : "Displays the temperature and video content",
+          "relationships" : [ {
+            "id" : "18",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "9",
+            "description" : "Reads video content"
+          }, {
+            "id" : "16",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "7",
+            "description" : "Reads temperature data"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "4",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "temperaturemanagementcomponent"
+          },
+          "name" : "Temperature management",
+          "description" : "Controls the ambient temperature based on temperature readings",
+          "relationships" : [ {
+            "id" : "28",
+            "tags" : "Relationship",
+            "sourceId" : "4",
+            "destinationId" : "7",
+            "description" : "Reads/Writes temperature readings"
+          }, {
+            "id" : "26",
+            "tags" : "Relationship",
+            "sourceId" : "4",
+            "destinationId" : "8",
+            "description" : "Gets temperature readings",
+            "technology" : "MQTTP"
+          }, {
+            "id" : "29",
+            "tags" : "Relationship",
+            "sourceId" : "4",
+            "destinationId" : "11",
+            "description" : "Controls the ambient temperature"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,File system,Infrastructure",
+        "properties" : {
+          "structurizr.dsl.identifier" : "videostorecontainer"
+        },
+        "name" : "Video Store",
+        "description" : "Stores video content",
+        "technology" : "File system",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,MQTT Broker,Infrastructure",
+        "properties" : {
+          "structurizr.dsl.identifier" : "rabbitmqcontainer"
+        },
+        "name" : "MQTT Broker",
+        "technology" : "RabbitMQ",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,Database,Infrastructure",
+        "properties" : {
+          "structurizr.dsl.identifier" : "databasecontainer"
+        },
+        "name" : "Database",
+        "technology" : "PostgreSQL schema",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 1,
+      "softwareSystemId" : "2",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2316,
+        "height" : 2016
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 908,
+        "y" : 1508
+      }, {
+        "id" : "1",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "12",
+        "x" : 1658,
+        "y" : 258
+      }, {
+        "id" : "2",
+        "x" : 908,
+        "y" : 908
+      }, {
+        "id" : "10",
+        "x" : 908,
+        "y" : 258
+      } ],
+      "relationships" : [ {
+        "id" : "15"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "31"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 2,
+      "softwareSystemId" : "2",
+      "dimensions" : {
+        "width" : 3759,
+        "height" : 2091
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 3108,
+        "y" : 1499
+      }, {
+        "id" : "1",
+        "x" : 1645,
+        "y" : 199
+      }, {
+        "id" : "12",
+        "x" : 2345,
+        "y" : 249
+      }, {
+        "id" : "3",
+        "x" : 1983,
+        "y" : 899
+      }, {
+        "id" : "7",
+        "x" : 2358,
+        "y" : 1499
+      }, {
+        "id" : "8",
+        "x" : 858,
+        "y" : 1499
+      }, {
+        "id" : "9",
+        "x" : 1608,
+        "y" : 1499
+      }, {
+        "id" : "10",
+        "x" : 199,
+        "y" : 899
+      } ],
+      "relationships" : [ {
+        "id" : "17"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-001",
+      "order" : 3,
+      "dimensions" : {
+        "width" : 3120,
+        "height" : 2000
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "3",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 950,
+        "y" : 1499
+      }, {
+        "id" : "12",
+        "x" : 2450,
+        "y" : 249
+      }, {
+        "id" : "1",
+        "x" : 1725,
+        "y" : 199
+      }, {
+        "id" : "4",
+        "x" : 950,
+        "y" : 899
+      }, {
+        "id" : "5",
+        "x" : 2450,
+        "y" : 899
+      }, {
+        "id" : "6",
+        "x" : 1700,
+        "y" : 899
+      }, {
+        "id" : "7",
+        "x" : 1700,
+        "y" : 1499
+      }, {
+        "id" : "8",
+        "x" : 200,
+        "y" : 1499
+      }, {
+        "id" : "9",
+        "x" : 2450,
+        "y" : 1499
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "18"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "20"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "External",
+          "background" : "#999999"
+        }, {
+          "tag" : "Infrastructure",
+          "background" : "#c96565"
+        }, {
+          "tag" : "Web browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "File system",
+          "shape" : "Folder"
+        }, {
+          "tag" : "MQTT Broker",
+          "shape" : "Pipe"
+        } ],
+        "relationships" : [ {
+          "tag" : "Relationship",
+          "style" : "Dotted"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Component-001"
+    }
+  }
+}
